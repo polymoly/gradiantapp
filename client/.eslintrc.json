@@ -1,0 +1,33 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-unused-vars": "warn",
+    "no-undef": "off",
+    "no-unused-expressions": "warn",
+    "no-unreachable": "off",
+    "no-empty": "off",
+    "no-empty-pattern": "off",
+    "no-useless-return": "off",
+    "no-useless-concat": "off",
+    "no-useless-constructor": "off",
+    "no-useless-computed-key": "off",
+    "no-useless-rename": "off",
+    "no-useless-call": "off",
+    "no-useless-escape": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}
